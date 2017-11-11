@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
     newArr.push("#{key.to_s.capitalize}:")
     newArr.push("#{value.to_s.capitalize}")
   end
-  newArr[0]
+  puts newArr[0]
 end
 
 def all_holidays_with_bbq(holiday_hash)

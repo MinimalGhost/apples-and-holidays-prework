@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  puts "#{holiday_hash[0].to_s}:"
+  holiday_hash[0].to_s}
 end
 
 def all_holidays_with_bbq(holiday_hash)

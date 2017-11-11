@@ -65,9 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |season|
     season.each do |holiday|
-      holiday.each do |supply|
-        newArr.push(supply)
-      end
+    end
     end
   end
   newArr.join(',')

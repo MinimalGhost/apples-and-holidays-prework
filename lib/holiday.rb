@@ -51,6 +51,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].each do |holiday|
     newArr.push(holiday)
   end
+  newArr.join(', ')
 end
 
 def all_supplies_in_holidays(holiday_hash)

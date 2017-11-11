@@ -63,11 +63,10 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  printable_string = ""
-  holiday_hash.sort.each do |k,v|
-    printable_string = printable_string + %Q{[#{k}] "#{v}"\n}
+  holiday_hash.each do |key, value|
+    newArr.push("#{key.to_s.capitalize}:")
+    puts value
   end
-  return printable_string.chomp
 end
 
 def all_holidays_with_bbq(holiday_hash)
